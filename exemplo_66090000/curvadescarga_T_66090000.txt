@@ -1,0 +1,21 @@
+Sistema de Informações Hidrológicas
+Versão Web 3.0
+© 2018 Agência Nacional de Águas (ANA)
+
+NivelConsistencia: 1 = Bruto, 2 = Consistido
+TipoCurva: 1 = Equação, 2 = Tabela
+TipoEquacao: 1 = Potência (Q(H) = a(H - h0)^n), 2 = Linear (Q(H) = a0 + a1H), 3 = Parabólica (Q(H) = a0 + a1H + a2H^2), 4 = Cúbica (Q(H) = a0 + a1H + a2H^2 + a3H^3)
+
+Restrições da consulta:
+Código da Estação:66090000
+
+
+EstacaoCodigo;NivelConsistencia;PeriodoValidadeInicio;PeriodoValidadeFim;CotaMaxima;CotaMinima;TipoCurva;NumeroCurva;TipoEquacao;CoefA;CoefH0;CoefN;CoefA0;CoefA1;CoefA2;CoefA3;TabelaPassoCota
+66090000;2;24827;33663;480;220;1;01/;1;5,738200;-1,01;2,766;;;;;;
+66090000;2;24827;33663;600;480;1;02/;1;1,988600;-0,30;3,638;;;;;;
+66090000;2;33664;39447;490;220;1;03/;1;5,485400;-1,01;2,874;;;;;;
+66090000;2;33664;39447;600;490;1;04/;1;1,436700;-0,30;3,910;;;;;;
+66090000;1;39448;41268;600;453;1;04/;1;4,083000;-0,13;3,380;;;;;;
+66090000;1;39448;41268;453;220;1;01/;1;5,830000;-1,24;2,765;;;;;;
+66090000;1;41269;43465;600;480;1;02/;1;1,988600;-0,30;3,638;;;;;;
+66090000;1;41269;43465;480;215;1;03/;1;5,823000;-1,20;2,709;;;;;;
